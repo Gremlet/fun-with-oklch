@@ -1,0 +1,92 @@
+:root {
+    --accent: oklch(70% 0.14 113);
+}
+.more {
+    width: 80%;
+    margin: auto;
+}
+
+.title {
+    text-align: center;
+}
+
+.container {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.temp-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.box-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+.five {
+    background-color: var(--accent);
+}
+
+.six {
+    background: oklch(70% 0.14 15);
+}
+
+button {
+    width: 100px;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    font-size: large;
+    border-radius: 5px;
+}
+.hsl-button-one {
+    background-color: hsl(270 100% 50%);
+}
+
+.hsl-button-two {
+    background-color: hsl(90 100% 50%);
+}
+
+.oklch-button-one {
+    background: oklch(53% 0.29 294);
+}
+
+.oklch-button-two {
+    background: oklch(53% 0.29 135);
+}
+
+.very-very-cold {
+    background: lch(35% 110 300);
+}
+
+.very-cold {
+    background: lch(35% 75 300);
+}
+
+.cold {
+    background: lch(35% 40 300);
+}
+
+.very-very-cold-ok {
+    background: oklch(48% 0.27 274);
+}
+
+.very-cold-ok {
+    background: oklch(48% 0.185 274);
+}
+
+.cold-ok {
+    background: oklch(48% 0.1 274);
+}

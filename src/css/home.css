@@ -1,0 +1,44 @@
+.home {
+    width: 80%;
+    margin: auto;
+}
+
+.title {
+    text-align: center;
+}
+
+.container {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.box-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+.two {
+    background-color: oklch(45% 0.26 264);
+}
+
+.three {
+    background-color: #ff0000;
+}
+.four {
+    background-color: color(display-p3 1 0 0);
+}
+
+img {
+    width: 50%;
+    display: block;
+    margin: auto;
+}
